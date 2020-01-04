@@ -63,7 +63,7 @@ background:grey
         $('web-search-box').onsubmit = function() {
           var url = $('url').value;
           //this is the URL for the server
-          window.location.href = `/prox/www.gausland.com/?cdURL=${url}`;
+          window.location.href = `cd182/index.php?cdURL=${url}`;
           return false;
         };
         window.onload = function() {
